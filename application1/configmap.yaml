@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-deployment-config
+  namespace: app-deployment
+data:
+  app_name: "demo-app"
+  environment: "development"
+  version: "1.0.0"
+  welcome_message: "Hello from ConfigMap!"
