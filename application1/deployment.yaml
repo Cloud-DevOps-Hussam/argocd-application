@@ -15,7 +15,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: hossam23/application:16
+      - image: hossam23/application:18
         name: demo-app
         imagePullPolicy: Always
         ports:
